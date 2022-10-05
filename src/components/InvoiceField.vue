@@ -163,15 +163,19 @@ content-center  ">
    
    
     <div class="">
-       <div class=" px-5 py-5 left-0 absolute w-50  pb-5 shadow-[rgb(35,36,38)]">
+       <div class=" left-0 absolute w-50  ml-[40px] mr-[10px] pb-5 shadow-[rgb(35,36,38)]">
         
-        <div class="lg:flex  ml-2 ">
+        <div class="lg:flex space-x-10 ">
           <Cards />
         <Cards /> 
         </div>
       
     
-      
+        <div class="absolute pt-11  space-x-5  "> 
+      <LowerSection  />
+   
+
+    </div> 
      
       
 
@@ -182,17 +186,13 @@ content-center  ">
   
     
     </div>
-    
      
-  
-        
+     
+    <!-- <LowerSection  />
+         -->
   </div>
 
-  <!-- <div class="absolute  flex items-baseline">
-      <LowerSection  />
-   
-
-    </div> -->
+  
     
   
   

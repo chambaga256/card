@@ -12,10 +12,8 @@
 
 
 <template>
-
-
-
-  <div class="  p-5  space-x-0 ml-[150px] mr[150px] place-items-center mt-1 p-b-20 ">
+  <div class="">
+    <div class="  p-5  space-x-0 ml-[150px] mr[150px] place-items-center mt-1 pb-10 shadow-lg shadow-[#ffffff] ">
     <P class=" pt-5"> Form</P>
   <div class="border px-7 w-full h-full content-center justify-center  ">
   <div class="p-0">
@@ -64,7 +62,10 @@
 </div>
   </div>
 
-  <div class="flex object-fit   absolute px-2 pt-5 pb-2">
+
+</div>
+
+<div class="flex object-fit   absolute px-2 pt-5 pb-2">
      <!-- <Modal @close="toggleModal" :modalActive="modalActive" /> -->
   <input type="checkbox" class="default:ring-2 border-gray-600 ..."  />
  
@@ -81,8 +82,11 @@
 
 </div>
 
+  </div>
 
-</div>
+
+
+
 
 <!-- <LowerSection /> -->
 
